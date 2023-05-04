@@ -1,48 +1,55 @@
+import React, { useRef, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  let palm1 = document.getElementById("palm1");
-  let palm2 = document.getElementById("palm2");
-  let palm3 = document.getElementById("palm3");
-  let palm4 = document.getElementById("palm4");
-  let palm5 = document.getElementById("palm5");
-  let palm6 = document.getElementById("palm6");
-  let palm7 = document.getElementById("palm7");
+  const palm1Ref = useRef(null);
+  const palm2Ref = useRef(null);
+  const palm3Ref = useRef(null);
+  const palm4Ref = useRef(null);
+  const palm5Ref = useRef(null);
+  const palm6Ref = useRef(null);
+  const palm7Ref = useRef(null);
 
-  window.addEventListener("scroll", () => {
-    let value = window.scrollY;
-    palm1.style.left = value * -0.1 + "px";
-    palm2.style.left = value * 0.1 + "px";
-    palm3.style.left = value * -0.05 + "px";
-    palm4.style.left = value * 0.05 + "px";
-    palm5.style.left = value * -1 + "px";
-    palm6.style.left = value * 1 + "px";
-    palm1.style.top = value * 0.05 + "px";
-    palm2.style.top = value * 0.05 + "px";
-    palm3.style.top = value * 0.01 + "px";
-    palm4.style.top = value * 0.02 + "px";
-    palm5.style.top = value * 0.03 + "px";
-    palm6.style.top = value * 0.04 + "px";
-    palm7.style.top = value * 0.01 + "px";
-  });
+  useEffect(() => {
+    function handleScroll(e) {
+      const value = e.target.documentElement.scrollTop;
+      palm1Ref.current.style.left = value * -0.1 + "px";
+      palm2Ref.current.style.left = value * 0.1 + "px";
+      palm3Ref.current.style.left = value * -0.05 + "px";
+      palm4Ref.current.style.left = value * 0.05 + "px";
+      palm5Ref.current.style.left = value * -1 + "px";
+      palm6Ref.current.style.left = value * 1 + "px";
+      palm1Ref.current.style.top = value * 1 + "px";
+      palm2Ref.current.style.top = value * 1 + "px";
+      palm3Ref.current.style.top = value * 1 + "px";
+      palm4Ref.current.style.top = value * 1 + "px";
+      palm5Ref.current.style.top = value * 1 + "px";
+      palm6Ref.current.style.top = value * 1 + "px";
+      palm7Ref.current.style.top = value * 1 + "px";
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="App">
       <div className="body">
         <div className="header">
           <div className="parallax">
-            <div className="animation_layer" id="palm7"></div>
-            <div className="animation_layer" id="palm6"></div>
-            <div className="animation_layer" id="palm5"></div>
-            <div className="animation_layer" id="palm3"></div>
-            <div className="animation_layer" id="palm4"></div>
-            <div className="animation_layer" id="palm2"></div>
-            <div className="animation_layer" id="palm1"></div>
+            <div className="animation-layer palm7" ref={palm7Ref}></div>
+            <div className="animation-layer palm6" ref={palm6Ref}></div>
+            <div className="animation-layer palm5" ref={palm5Ref}></div>
+            <div className="animation-layer palm4" ref={palm4Ref}></div>
+            <div className="animation-layer palm3" ref={palm3Ref}></div>
+            <div className="animation-layer palm2" ref={palm2Ref}></div>
+            <div className="animation-layer palm1" ref={palm1Ref}></div>
           </div>
           <div>
             <h1>Positive Outlooks</h1>
-            <div>
-              <h2>Your mind can move mountains!</h2>
-            </div>
+
+            <h2>Your mind can move mountains!</h2>
           </div>
         </div>
       </div>
