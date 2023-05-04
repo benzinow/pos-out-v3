@@ -21,6 +21,7 @@
 .fixables {
   height: 1200px;
   display: flex;
+  flex-direction: column;
 }
 
 .fix-bubble {
@@ -37,8 +38,43 @@
   font-size: 20px;
 }
 
+.fix-bubble:hover {
+  background-color: rgba(119, 211, 194, 0.5);
+}
+
+.fix-bubble-active {
+  background-color: rgba(119, 211, 194, 0.5);
+}
+
 .fix-bubbles {
   display: flex;
   align-content: space-around;
   margin: 0 auto;
+}
+
+.fix-facts {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  margin: 30px;
+  gap: 30px;
+}
+
+.fix-facts-icon {
+  background-image: url(/images/smoking.png);
+  width: 250px;
+  height: 250px;
+}
+
+.fix-facts-text {
+  max-width: 800px;
+  background-color: rgba(119, 211, 194, 0.7);
+  border-radius: 20px;
+  color: #0a2c31;
+  font-family: "Krub", sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
