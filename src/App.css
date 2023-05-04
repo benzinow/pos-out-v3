@@ -1,38 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;700&family=Krub:wght@200;400;700&display=swap");
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body {
+  background-color: #19707c;
+  max-width: 1200px;
+  height: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: #ba4926;
+  filter: drop-shadow(10px 10px 30px white);
+  font-weight: 700;
+  font-size: 80px;
+  font-family: "Kaisei Decol", serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  color: #ffbd42;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0 auto;
+  font-family: "Kaisei Decol", serif;
+}
+
+.header-button {
+  color: #fff;
+  background-color: rgba(25, 112, 124, 0.85);
+  border-radius: 20%;
+
+  max-width: 466px;
+  padding: 15px;
+  display: inline;
+  font-size: 30px;
+  font-family: "Krub", sans-serif;
+}
+
+.animation_layer {
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-width: 1200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.parallax {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+#palm1 {
+  background-image: url(/images/palm-paralax-1.png);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#palm2 {
+  background-image: url(/images/palm-paralax-2.png);
+}
+#palm3 {
+  background-image: url(/images/palm-paralax-3.png);
+}
+#palm4 {
+  background-image: url(/images/palm-paralax-4.png);
+}
+#palm5 {
+  background-image: url(/images/palm-paralax-5.png);
+}
+#palm6 {
+  background-image: url(/images/palm-paralax-6.png);
+}
+#palm7 {
+  background-image: url(/images/palm-paralax-7.png);
 }
