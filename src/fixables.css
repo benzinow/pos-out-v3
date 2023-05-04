@@ -1,0 +1,96 @@
+.fixables {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.fix-bubble {
+  width: 200px;
+  height: 50px;
+  background-color: rgba(119, 211, 194, 1);
+  border-radius: 50% 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  color: #0a2c31;
+  font-family: "Krub", sans-serif;
+  font-size: 20px;
+}
+
+.fix-bubble:hover {
+  background-color: rgba(119, 211, 194, 0.5);
+}
+
+.fix-bubble-active {
+  background-color: rgba(119, 211, 194, 0.5);
+}
+
+.fix-bubbles {
+  display: flex;
+  align-content: space-around;
+  margin: 0 auto;
+}
+
+.fix-facts {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  margin: 30px;
+  gap: 30px;
+}
+
+.fix-facts-icon {
+  background-image: url(/images/smoking.png);
+  width: 250px;
+  height: 250px;
+}
+
+.fix-facts-text {
+  max-width: 800px;
+  background-color: rgba(119, 211, 194, 0.7);
+  border-radius: 20px;
+  color: #0a2c31;
+  font-family: "Krub", sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.solution-tagline {
+  color: #ffbd42;
+  font-size: 30px;
+  font-family: "Kaisei Decol", serif;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.request-button {
+  background-color: rgba(255, 189, 66, 0.85);
+  font-size: 30px;
+  font-family: "Krub", sans-serif;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.request-button:hover {
+  background-color: rgba(255, 189, 66, 1);
+  font-size: 30px;
+  font-family: "Krub", sans-serif;
+}
+
+.design-line {
+  background-color: #77d3c2;
+  width: 300px;
+  height: 1px;
+}
+
+.request-box {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
