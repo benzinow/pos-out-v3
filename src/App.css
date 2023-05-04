@@ -9,6 +9,10 @@
 
 .body {
   background-color: #19707c;
+  background-image: url("/images/big-eye.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
@@ -16,5 +20,25 @@
 
 .fixables {
   height: 1200px;
-  background-color: #19707c;
+  display: flex;
+}
+
+.fix-bubble {
+  width: 200px;
+  height: 50px;
+  background-color: rgba(119, 211, 194, 1);
+  border-radius: 50% 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  color: #0a2c31;
+  font-family: "Krub", sans-serif;
+  font-size: 20px;
+}
+
+.fix-bubbles {
+  display: flex;
+  align-content: space-around;
+  margin: 0 auto;
 }
