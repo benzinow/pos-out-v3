@@ -18,99 +18,66 @@
   overflow: hidden;
 }
 
-.fixables {
+.bio {
+  background-color: rgba(255, 189, 66, 1);
+  padding: 50px 150px;
   display: flex;
-  flex-direction: column;
-  padding: 50px 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.fix-bubble {
-  width: 200px;
-  height: 50px;
-  background-color: rgba(119, 211, 194, 1);
-  border-radius: 50% 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px;
-  color: #0a2c31;
-  font-family: "Krub", sans-serif;
-  font-size: 20px;
-}
-
-.fix-bubble:hover {
-  background-color: rgba(119, 211, 194, 0.5);
-}
-
-.fix-bubble-active {
-  background-color: rgba(119, 211, 194, 0.5);
-}
-
-.fix-bubbles {
-  display: flex;
-  align-content: space-around;
-  margin: 0 auto;
-}
-
-.fix-facts {
-  display: flex;
-  justify-content: center;
-  align-content: space-around;
-  margin: 30px;
-  gap: 30px;
-}
-
-.fix-facts-icon {
-  background-image: url(/images/smoking.png);
-  width: 250px;
-  height: 250px;
-}
-
-.fix-facts-text {
-  max-width: 800px;
-  background-color: rgba(119, 211, 194, 0.7);
+.profile-picture {
+  width: 450px;
+  height: 600px;
+  background-image: url(/images/profile-blue.png);
+  transition: 0.5s;
   border-radius: 20px;
-  color: #0a2c31;
-  font-family: "Krub", sans-serif;
-  font-size: 20px;
-  line-height: normal;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline;
 }
 
-.solution-tagline {
-  color: #ffbd42;
-  font-size: 30px;
+.profile-picture:hover {
+  background-image: url(/images/profile-color.png);
+  transition: 0.5s;
+}
+
+.name {
+  font-size: 60px;
   font-family: "Kaisei Decol", serif;
   font-weight: 700;
-  margin-top: 40px;
+  text-align: center;
+  width: 420px;
+  margin-bottom: 30px;
 }
 
-.request-button {
-  background-color: rgba(255, 189, 66, 0.85);
-  font-size: 30px;
+.bio-tagline {
+  color: #ba4926;
+  text-align: center;
+  font-weight: 700;
+}
+
+.bio-text-block {
   font-family: "Krub", sans-serif;
-  padding: 30px;
-  border-radius: 20px;
-}
-
-.request-button:hover {
-  background-color: rgba(255, 189, 66, 1);
-  font-size: 30px;
+  color: #0a2c31;
+  font-size: 22px;
   font-family: "Krub", sans-serif;
+  line-height: normal;
+  text-align: left;
+  display: inline;
+  width: 420px;
+  margin-bottom: 30px;
 }
 
-.design-line {
-  background-color: #77d3c2;
-  width: 300px;
-  height: 1px;
+.bio-text-block2 {
+  font-family: "Krub", sans-serif;
+  color: #0a2c31;
+  font-size: 22px;
+  font-family: "Krub", sans-serif;
+  line-height: normal;
+  text-align: left;
+  display: inline;
+  width: 900px;
 }
 
-.request-box {
-  margin-top: 60px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
+.what {
+  margin-bottom: 30px;
 }
