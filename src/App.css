@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;700&family=Krub:wght@200;400;700&display=swap");
 @import url("./reset.css");
 @import url("./header.css");
+@import url("./fixables.css");
+@import url("./bio.css");
 
 .App {
   text-align: center;
@@ -16,68 +18,4 @@
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-}
-
-.bio {
-  background-color: rgba(255, 189, 66, 1);
-  padding: 50px 150px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.profile-picture {
-  width: 450px;
-  height: 600px;
-  background-image: url(/images/profile-blue.png);
-  transition: 0.5s;
-  border-radius: 20px;
-  display: inline;
-}
-
-.profile-picture:hover {
-  background-image: url(/images/profile-color.png);
-  transition: 0.5s;
-}
-
-.name {
-  font-size: 60px;
-  font-family: "Kaisei Decol", serif;
-  font-weight: 700;
-  text-align: center;
-  width: 420px;
-  margin-bottom: 30px;
-}
-
-.bio-tagline {
-  color: #ba4926;
-  text-align: center;
-  font-weight: 700;
-}
-
-.bio-text-block {
-  font-family: "Krub", sans-serif;
-  color: #0a2c31;
-  font-size: 22px;
-  font-family: "Krub", sans-serif;
-  line-height: normal;
-  text-align: left;
-  display: inline;
-  width: 420px;
-  margin-bottom: 30px;
-}
-
-.bio-text-block2 {
-  font-family: "Krub", sans-serif;
-  color: #0a2c31;
-  font-size: 22px;
-  font-family: "Krub", sans-serif;
-  line-height: normal;
-  text-align: left;
-  display: inline;
-  width: 900px;
-}
-
-.what {
-  margin-bottom: 30px;
 }
