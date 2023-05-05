@@ -51,9 +51,9 @@ function Header() {
           <h2>Your mind can move mountains!</h2>
         </div>
         <div className="first">
-          <div className="tagline">Let me show you how</div>
+          <div className="tagline">Let me show you how.</div>
           <h1>Positive Outlooks</h1>
-          <div className="header-button">Book your free consultation now</div>
+          <div className="header-button">Book Your Free Consultation Now</div>
         </div>
       </div>
     </div>

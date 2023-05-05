@@ -29,7 +29,7 @@ function Fixables() {
         </div>
       </div>
       <div className="solution-tagline">
-        Hypnosis is the solution you’ve been looking for
+        Hypnosis is the solution you’ve been seeking.
       </div>
       <Request />
     </div>
