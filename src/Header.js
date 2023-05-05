@@ -53,7 +53,7 @@ function Header() {
         <div className="first">
           <div className="tagline">Let me show you how.</div>
           <h1>Positive Outlooks</h1>
-          <div className="header-button">Book Your Free Consultation Now</div>
+          <div className="header-button">Request Your Free Consultation</div>
         </div>
       </div>
     </div>
