@@ -1,4 +1,5 @@
 import React from "react";
+import Request from "./Request";
 import "./fixables.css";
 
 function Fixables() {
@@ -30,13 +31,7 @@ function Fixables() {
       <div className="solution-tagline">
         Hypnosis is the solution you’ve been looking for
       </div>
-      <div className="request-box">
-        <div className="design-line"></div>
-        <div className="request-button">
-          <p>Request Appointment</p>
-        </div>
-        <div className="design-line"></div>
-      </div>
+      <Request />
     </div>
   );
 }

@@ -19,3 +19,41 @@
   margin: 0 auto;
   overflow: hidden;
 }
+
+.testimonies {
+  width: 1200px;
+  border: red 1px solid;
+  padding: 50px 0;
+}
+
+.testimony-cards {
+  display: flex;
+  width: 900px;
+  height: 100vh;
+  flex-grow: inherit;
+  gap: 30px;
+  flex-direction: column;
+  overflow-y: scroll;
+  margin: 0 auto;
+}
+
+.testimony-card {
+  background-color: rgba(186, 73, 38, 1);
+  color: #fff;
+  border-radius: 20px;
+  width: 900px;
+  font-size: 20px;
+  font-family: "Krub", sans-serif;
+  line-height: normal;
+}
+
+.testimony {
+  padding: 20px;
+
+  text-align: left;
+}
+
+.testifier {
+  text-align: right;
+  padding: 20px;
+}

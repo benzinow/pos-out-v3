@@ -1,0 +1,27 @@
+.request-button {
+  background-color: rgba(255, 189, 66, 0.85);
+  font-size: 30px;
+  font-family: "Krub", sans-serif;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.request-button:hover {
+  background-color: rgba(255, 189, 66, 1);
+  font-size: 30px;
+  font-family: "Krub", sans-serif;
+}
+
+.design-line {
+  background-color: #77d3c2;
+  width: 300px;
+  height: 1px;
+}
+
+.request-box {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
