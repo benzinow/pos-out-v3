@@ -17,14 +17,14 @@ function Fixables() {
         <div className="fix-facts-text">
           <p>
             Hypnotherapy has been shown to be an effective tool for helping
-            individuals quit smoking. During a session, you'll be guided into a
-            state of deep relaxation where you'll become more open to
-            suggestion. I will then work with you to reprogram your subconscious
-            mind, helping you to view smoking in a negative light and promoting
-            healthier habits and coping mechanisms. I'll also help you identify
-            any underlying emotional or psychological issues that are
-            contributing to your smoking habit. Hypnotherapy can be a powerful
-            tool in your journey to quit smoking!
+            individuals quit smoking. During a session, you will be guided into
+            a state of deep relaxation becoming more open to suggestion. We then
+            work to reprogram your subconscious mind, helping you to view
+            smoking in a negative light and promoting healthier habits and
+            coping mechanisms. I will help you identify possible underlying
+            emotional or psychological issues that are contributing to smoking
+            habits. Hypnotherapy can be a powerful tool in your journey to quit
+            smoking!
           </p>
         </div>
       </div>
