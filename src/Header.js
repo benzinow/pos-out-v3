@@ -14,7 +14,6 @@ function Header() {
   useEffect(() => {
     function handleScroll(e) {
       const value = e.target.documentElement.scrollTop;
-      console.log(value);
       if (value <= 200) {
         palm1Ref.current.style.left = value * -0.6 + "px";
         palm2Ref.current.style.left = value * 0.6 + "px";

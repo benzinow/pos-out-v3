@@ -1,0 +1,40 @@
+.testimonies {
+  width: 1200px;
+  padding: 50px 0;
+}
+
+.testimony-cards-scroll {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.testimony-cards {
+  display: flex;
+  width: 900px;
+  height: 2500px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.testimony-card {
+  background-color: rgba(186, 73, 38, 1);
+  color: #fff;
+  border-radius: 20px;
+  width: 435px;
+  font-size: 20px;
+  font-family: "Krub", sans-serif;
+  line-height: normal;
+}
+
+.testimony {
+  padding: 20px;
+  text-align: left;
+}
+
+.testifier {
+  text-align: right;
+  padding: 20px;
+  font-size: 15px;
+}
