@@ -12,16 +12,16 @@ function Bio() {
         </div>
         <div className="bio-text">
           <p>
-            As a Certified Hypnotherapist and Life Coach with over a thousand
+            As a certified hypnotherapist and life coach with over a thousand
             successful cases, I have dedicated my life to helping people achieve
-            their goals and overcome their challenges. With years of experience
-            and training from the most accredited school for Hypnotherapy, The
-            Hypnosis Motivation Institute, I have honed my skills to help
-            clients break free from limiting beliefs, overcome fears, and reach
-            their full potential. I am a Master Hypnotist and Certified
-            Hypnotherapist in the AHA, and have also studied NLP, Circle
-            Therapy, Systematic Desensitization and Reiki to provide my clients
-            with a holistic approach to healing.
+            goals and overcome challenges. With years of experience and training
+            from the most accredited school for hypnotherapy, The Hypnosis
+            Motivation Institute, I have honed my skills to help clients break
+            free from limiting beliefs, overcome fears, and reach their full
+            potential. I am a Master Hypnotist and Certified Hypnotherapist in
+            the AHA, and have also studied NLP, Circle Therapy, Systematic
+            Desensitization and Reiki to provide my clients with a holistic
+            approach to healing.
           </p>
         </div>
       </div>
