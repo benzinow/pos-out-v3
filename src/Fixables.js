@@ -23,8 +23,8 @@ function Fixables() {
             smoking in a negative light and promoting healthier habits and
             coping mechanisms. I will help you identify possible underlying
             emotional or psychological issues that are contributing to smoking
-            habits. Hypnotherapy can be a powerful tool in your journey to quit
-            smoking!
+            habits. Hypnotherapy can create powerful insight towards your
+            journey to quit smoking!
           </p>
         </div>
       </div>
