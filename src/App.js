@@ -3,6 +3,7 @@ import Header from "./Header";
 import Fixables from "./Fixables";
 import Bio from "./Bio";
 import Testimonies from "./Testimonies";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Fixables />
         <Bio />
         <Testimonies />
+        <Footer />
       </div>
     </div>
   );

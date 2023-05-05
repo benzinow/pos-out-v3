@@ -1,0 +1,54 @@
+.footer {
+  background-color: #0a2c31;
+  height: 320px;
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Krub", sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-list-item {
+  color: rgba(255, 189, 66, 0.85);
+  font-size: 20px;
+  transition: 0.3s;
+  text-align: left;
+}
+.nav-list-item:hover {
+  color: rgba(255, 189, 66, 1);
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.icon {
+  height: 165px;
+  width: 200px;
+  background-image: url("/images/small-eye.png");
+  opacity: 85%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon:hover {
+  height: 170px;
+  width: 205px;
+  opacity: 100%;
+}
+
+.credit {
+  color: #19707c;
+  width: 245px;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+}
+
+.credit:hover {
+  color: #77d3c2;
+}

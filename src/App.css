@@ -4,6 +4,7 @@
 @import url("./fixables.css");
 @import url("./bio.css");
 @import url("./testimonies.css");
+@import url("./footer.css");
 
 .App {
   text-align: center;
