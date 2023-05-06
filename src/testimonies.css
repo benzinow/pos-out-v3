@@ -38,3 +38,65 @@
   padding: 20px;
   font-size: 15px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .testimonies {
+    width: 750px;
+    padding: 50px 10px;
+  }
+
+  .testimony-cards-scroll {
+    width: 750px;
+    height: 500px;
+  }
+
+  .testimony-cards {
+    width: 700px;
+    height: auto;
+    gap: 10px;
+  }
+
+  .testimony-card {
+    width: 700px;
+    font-size: 15px;
+  }
+
+  .testimony {
+    padding: 10px;
+  }
+
+  .testifier {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .testimonies {
+    width: 350px;
+    padding: 50px 10px;
+  }
+
+  .testimony-cards-scroll {
+    width: 350px;
+    height: 500px;
+  }
+
+  .testimony-cards {
+    width: 310px;
+    height: auto;
+    gap: 10px;
+  }
+
+  .testimony-card {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .testimony {
+    padding: 10px;
+  }
+
+  .testifier {
+    padding: 10px;
+  }
+}

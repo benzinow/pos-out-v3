@@ -64,7 +64,14 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .bio-text-block2 {
-    width: 420px;
+    width: 470px;
+  }
+  .bio-text-block {
+    width: 470px;
+  }
+
+  .name {
+    width: 470px;
   }
 }
 
