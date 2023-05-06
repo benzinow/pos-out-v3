@@ -124,7 +124,7 @@ h2 {
 
   .header-button {
     max-width: 250px;
-
+    line-height: normal;
     font-size: 17px;
   }
 }
