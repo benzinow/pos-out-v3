@@ -53,3 +53,61 @@
 .credit:hover {
   color: #77d3c2;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .icon {
+    height: 100px;
+    width: 100px;
+  }
+
+  .icon:hover {
+    height: 105px;
+    width: 105px;
+  }
+
+  .nav-list-item {
+    color: rgba(255, 189, 66, 0.85);
+    font-size: 15px;
+    transition: 0.3s;
+    text-align: left;
+  }
+  .nav-list-item:hover {
+    color: rgba(255, 189, 66, 1);
+    font-size: 17px;
+  }
+
+  .credit {
+    font-size: 15px;
+  }
+  .footer {
+    height: 220px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .icon {
+    height: 100px;
+    width: 100px;
+    opacity: 100%;
+  }
+
+  .nav-list-item {
+    color: rgba(255, 189, 66, 0.85);
+    font-size: 15px;
+    transition: 0.3s;
+    text-align: center;
+  }
+  .nav-list-item:hover {
+    color: rgba(255, 189, 66, 1);
+    font-size: 17px;
+  }
+
+  .credit {
+    font-size: 15px;
+  }
+  .footer {
+    height: 400px;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
