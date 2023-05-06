@@ -127,4 +127,8 @@ h2 {
     line-height: normal;
     font-size: 17px;
   }
+
+  .animation-layer {
+    height: 900px;
+  }
 }
