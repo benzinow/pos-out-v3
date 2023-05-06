@@ -66,3 +66,35 @@
   font-weight: 700;
   margin-top: 40px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .fix-bubbles {
+    flex-wrap: wrap;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fix-bubble {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .fix-bubbles {
+    flex-wrap: wrap;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fix-bubble {
+    width: 40%;
+    font-size: 15px;
+  }
+
+  .fixables {
+    padding: 0;
+    margin-top: -80px;
+  }
+}
