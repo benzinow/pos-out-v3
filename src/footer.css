@@ -91,6 +91,11 @@
     opacity: 100%;
   }
 
+  .icon:hover {
+    height: 105px;
+    width: 105px;
+  }
+
   .nav-list-item {
     color: rgba(255, 189, 66, 0.85);
     font-size: 15px;
