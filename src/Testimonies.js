@@ -41,7 +41,7 @@ function Testimonies() {
               about the wedding and all went as planned with positive energy.
               Thank you Chris!
             </p>
-            <p className="testifier">-Dr. David Redd</p>
+            <p className="testifier">-Dr. David Reed</p>
           </div>
           <div className="testimony-card">
             <p className="testimony">

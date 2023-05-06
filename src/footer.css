@@ -23,7 +23,6 @@
 .nav-list-item:hover {
   color: rgba(255, 189, 66, 1);
   font-size: 22px;
-  transition: 0.3s;
 }
 
 .icon {
@@ -33,6 +32,7 @@
   opacity: 85%;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 0.3s;
 }
 
 .icon:hover {
@@ -47,6 +47,7 @@
   font-size: 20px;
   line-height: normal;
   text-align: center;
+  transition: 0.3s;
 }
 
 .credit:hover {
