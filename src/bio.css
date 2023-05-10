@@ -84,6 +84,9 @@
 
   .bio {
     padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
   }
 
   .name {
