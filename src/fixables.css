@@ -21,9 +21,11 @@
 }
 
 .fix-facts-icon {
-  background-image: url(/images/smoking.png);
   width: 250px;
   height: 250px;
+  background-size: cover;
+  filter: invert(88%) sepia(45%) saturate(3735%) hue-rotate(322deg)
+    brightness(101%) contrast(103%);
 }
 
 .fix-facts-text {
@@ -100,8 +102,6 @@
   .fix-facts-icon {
     width: 150px;
     height: 150px;
-
-    background-size: cover;
   }
 
   .fixables {
@@ -147,7 +147,6 @@
   .fix-facts-icon {
     width: 100px;
     height: 100px;
-    background-size: cover;
   }
 
   .fixables {
