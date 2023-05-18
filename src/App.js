@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Fixables from "./Fixables";
 import Bio from "./Bio";
@@ -8,19 +8,15 @@ import Loader from "./Loader";
 import "./App.css";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true); // New state variable
+  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setIsLoading(false);
-    }, 500);
-
-    return () => clearTimeout(timeout);
-  }, []);
+  window.onload = () => {
+    setLoading(false);
+  };
 
   return (
     <div className="App">
-      {isLoading ? ( // Conditionally render the loader while loading
+      {loading ? (
         <Loader />
       ) : (
         <div className="body">
