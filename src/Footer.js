@@ -4,6 +4,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="nav-list">
+        <p className="nav-list-item">Home</p>
         <p className="nav-list-item">Certifications and Awards</p>
         <p className="nav-list-item">Congan Water Machine</p>
         <p className="nav-list-item">Infared Sauna</p>
