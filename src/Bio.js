@@ -29,7 +29,7 @@ function Bio() {
         <p className="what">
           My empathic nature has been with me since childhood, and it allows me
           to connect with my clients on a deep level, understanding their needs
-          and guiding them towards positive change.
+          and guiding them toward positive change.
         </p>
         <p className="what">
           Apart from my work as a hypnotherapist, I have also been involved in

@@ -24,7 +24,7 @@ function Fixables() {
             coping mechanisms. I will help you identify possible underlying
             emotional or psychological issues that are contributing to smoking
             habits. Hypnotherapy can create powerful insight towards your
-            journey to a nicotine free life!
+            journey to a nicotine-free life!
           </p>
         </div>
       </div>
