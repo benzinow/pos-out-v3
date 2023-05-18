@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import Fixables from "./Fixables";
 import Bio from "./Bio";
@@ -10,9 +10,17 @@ import "./App.css";
 function App() {
   const [loading, setLoading] = useState(true);
 
-  window.onload = () => {
-    setLoading(false);
-  };
+  useEffect(() => {
+    const handleLoad = () => {
+      setLoading(false);
+    };
+
+    window.addEventListener("load", handleLoad);
+
+    return () => {
+      window.removeEventListener("load", handleLoad);
+    };
+  }, []);
 
   return (
     <div className="App">
