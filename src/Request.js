@@ -1,5 +1,4 @@
 import React from "react";
-import "./request.css";
 
 function Request() {
   return (

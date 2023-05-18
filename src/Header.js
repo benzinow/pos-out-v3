@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import "./header.css";
 
 function Header() {
   const palm1Ref = useRef(null);

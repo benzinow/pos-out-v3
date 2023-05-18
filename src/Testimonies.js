@@ -1,6 +1,5 @@
 import React from "react";
 import Request from "./Request";
-import "./testimonies.css";
 
 function Testimonies() {
   return (
