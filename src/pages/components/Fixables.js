@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import Request from "./Request";
 
 // Import the images
-import smokingImage from "./images/smoking.svg";
-import stressImage from "./images/stress.svg";
-import weightImage from "./images/weight.svg";
-import painImage from "./images/pain.svg";
-import fearImage from "./images/fear.svg";
+import smokingImage from "../images/smoking.svg";
+import stressImage from "../images/stress.svg";
+import weightImage from "../images/weight.svg";
+import painImage from "../images/pain.svg";
+import fearImage from "../images/fear.svg";
 
 function Fixables() {
   const [selectedTopic, setSelectedTopic] = useState("Quit Smoking");

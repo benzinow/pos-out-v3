@@ -28,7 +28,7 @@
 .icon {
   height: 200px;
   width: 200px;
-  background-image: url("./images/small-ying.png");
+  background-image: url("../images/small-ying.png");
   opacity: 85%;
   background-repeat: no-repeat;
   background-size: cover;

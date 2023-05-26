@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../Header";
-import Fixables from "../Fixables";
-import Bio from "../Bio";
-import Testimonies from "../Testimonies";
+import Header from "./components/Header";
+import Fixables from "./components/Fixables";
+import Bio from "./components/Bio";
+import Testimonies from "./components/Testimonies";
 
 import "../App.css";
 

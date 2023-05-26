@@ -9,14 +9,14 @@
 .profile-picture {
   width: 450px;
   height: 600px;
-  background-image: url(./images/profile-blue.png);
+  background-image: url(../images/profile-blue.png);
   transition: 0.5s;
   border-radius: 20px;
   display: inline;
 }
 
 .profile-picture:hover {
-  background-image: url(./images/profile-color.png);
+  background-image: url(../images/profile-color.png);
   transition: 0.5s;
 }
 

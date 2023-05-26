@@ -1,10 +1,10 @@
 import React from "react";
 
 import "./App.css";
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Sauna } from "./pages/Sauna";
-import Footer from "./Footer";
+import Footer from "./pages/components/Footer";
 import { Certifications } from "./pages/Certifications";
 import { Water } from "./pages/Water";
 import { FAQ } from "./pages/Faq";
