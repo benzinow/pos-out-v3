@@ -1,19 +1,27 @@
 import React from "react";
-import Header from "./Header";
-import Fixables from "./Fixables";
-import Bio from "./Bio";
-import Testimonies from "./Testimonies";
-import Footer from "./Footer";
+
 import "./App.css";
+import { Link, Route, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Sauna } from "./pages/Sauna";
+import Footer from "./Footer";
+import { Certifications } from "./pages/Certifications";
+import { Water } from "./pages/Water";
+import { FAQ } from "./pages/Faq";
+import { Contact } from "./pages/Contact";
 
 function App() {
   return (
     <div className="App">
       <div className="body">
-        <Header />
-        <Fixables />
-        <Bio />
-        <Testimonies />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/certifications" element={<Certifications />} />
+          <Route path="/water" element={<Water />} />
+          <Route path="/sauna" element={<Sauna />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
         <Footer />
       </div>
     </div>

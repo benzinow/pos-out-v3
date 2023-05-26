@@ -1,16 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="nav-list">
-        <p className="nav-list-item">Home</p>
-        <p className="nav-list-item">Certifications and Awards</p>
-        <p className="nav-list-item">Congan Water Machine</p>
-        <p className="nav-list-item">Infared Sauna</p>
-        <p className="nav-list-item">FAQ</p>
-        <p className="nav-list-item">Contact</p>
-        <p className="nav-list-item">Book Consultation</p>
+        <Link className="nav-list-item" to="/">
+          Home
+        </Link>
+        <Link className="nav-list-item" to="/certifications">
+          Certifications and Awards
+        </Link>
+        <Link className="nav-list-item" to="/water">
+          Congan Water Machine
+        </Link>
+        <Link className="nav-list-item" to="/sauna">
+          Infared Sauna
+        </Link>
+        <Link className="nav-list-item" to="/faq">
+          FAQ
+        </Link>
+        <Link className="nav-list-item" to="/contact">
+          Contact
+        </Link>
+        <Link className="nav-list-item" to="/contact">
+          Book Consultation
+        </Link>
       </div>
       <div className="icon"></div>
       <div className="credit">
