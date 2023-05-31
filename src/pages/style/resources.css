@@ -64,6 +64,11 @@ h3 {
   font-size: 22px;
 }
 
+.video {
+  width: 373px;
+  height: 210px;
+}
+
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   .resource-cards {
     flex-direction: column;
@@ -71,5 +76,10 @@ h3 {
 
   .link-cards {
     width: 100%;
+  }
+
+  .video {
+    width: 261px;
+    height: 147px;
   }
 }

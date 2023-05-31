@@ -75,8 +75,7 @@ export function Resources() {
         <div className="link-cards">
           <div className="discount-card">
             <iframe
-              width="373"
-              height="210"
+              className="video"
               src="https://www.youtube.com/embed/ZfB5rYqtIPg?start=368"
               title="YouTube video player"
               frameborder="0"
@@ -99,8 +98,7 @@ export function Resources() {
 
           <div className="discount-card">
             <iframe
-              width="373"
-              height="210"
+              className="video"
               src="https://www.youtube.com/embed/PgWH9Vs8Oyk"
               title="YouTube video player"
               frameborder="0"
