@@ -11,11 +11,8 @@ function Footer() {
         <Link className="nav-list-item" to="/certifications">
           Certifications and Awards
         </Link>
-        <Link className="nav-list-item" to="/water">
-          Congan Water Machine
-        </Link>
-        <Link className="nav-list-item" to="/sauna">
-          Infared Sauna
+        <Link className="nav-list-item" to="/resources">
+          Life Changing Resources
         </Link>
         <Link className="nav-list-item" to="/faq">
           FAQ

@@ -1,0 +1,64 @@
+.resource-cards {
+  display: flex;
+  gap: 20px;
+
+  margin-bottom: 100px;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
+.pitch-block {
+  background-color: rgba(255, 189, 66, 0.85);
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Krub", sans-serif;
+  line-height: normal;
+  text-align: left;
+}
+
+.pitch {
+  margin-bottom: 30px;
+}
+
+.discount-card {
+  background-color: rgba(255, 189, 66, 1);
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "Krub", sans-serif;
+  font-weight: 700;
+}
+
+.link-cards {
+  width: 55%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.book-list {
+  background-color: #0a2c31;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.book {
+  color: rgba(255, 189, 66, 0.85);
+  font-size: 16px;
+  transition: 0.3s;
+
+  font-weight: 400;
+}
+
+.book:hover {
+  color: rgba(255, 189, 66, 1);
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+h3 {
+  color: rgba(255, 189, 66, 1);
+  font-size: 22px;
+}

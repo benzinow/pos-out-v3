@@ -12,7 +12,7 @@ import cert9 from "./images/cert09.png";
 export function Certifications() {
   return (
     <div>
-      <h1 className="page-title ">Certifications and Awards</h1>
+      <h1 className="page-title">Certifications and Awards</h1>
       <div className="frames">
         <img className="frame" src={cert1} alt="Topic Icon" />
         <img className="frame" src={cert2} alt="Topic Icon" />

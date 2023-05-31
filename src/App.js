@@ -6,7 +6,7 @@ import { Home } from "./pages/Home";
 import { Sauna } from "./pages/Sauna";
 import Footer from "./pages/components/Footer";
 import { Certifications } from "./pages/Certifications";
-import { Water } from "./pages/Water";
+import { Resources } from "./pages/Resources";
 import { FAQ } from "./pages/Faq";
 import { Contact } from "./pages/Contact";
 
@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
       <div className="body">
-        <Routes>
+        <Routes onUpdate={() => window.scrollTo(0, 0)}>
           <Route path="/" element={<Home />} />
           <Route path="/certifications" element={<Certifications />} />
-          <Route path="/water" element={<Water />} />
+          <Route path="/resources" element={<Resources />} />
           <Route path="/sauna" element={<Sauna />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />

@@ -29,16 +29,10 @@
   height: 200px;
   width: 200px;
   background-image: url("../images/small-ying.png");
-  opacity: 85%;
+
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.3s;
-}
-
-.icon:hover {
-  height: 205px;
-  width: 205px;
-  opacity: 100%;
 }
 
 .credit {
@@ -58,11 +52,6 @@
   .icon {
     height: 100px;
     width: 100px;
-  }
-
-  .icon:hover {
-    height: 105px;
-    width: 105px;
   }
 
   .nav-list-item {
@@ -89,11 +78,6 @@
     height: 100px;
     width: 100px;
     opacity: 100%;
-  }
-
-  .icon:hover {
-    height: 105px;
-    width: 105px;
   }
 
   .nav-list-item {

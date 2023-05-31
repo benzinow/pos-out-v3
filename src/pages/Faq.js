@@ -1,3 +1,3 @@
 export function FAQ() {
-  return <h1>FAQ</h1>;
+  return <h1 className="page-title">FAQ</h1>;
 }
