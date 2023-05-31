@@ -325,36 +325,36 @@ export function FAQ() {
           </p>
           <ol>
             <li className="answer">
-              Hypnosis induces a calm and relaxed mind, similar to deep sleep.
-              While in this state, the conscious mind recedes, and the
+              1. Hypnosis induces a calm and relaxed mind, similar to deep
+              sleep. While in this state, the conscious mind recedes, and the
               subconscious mind becomes accessible. After a session, clients
               often feel refreshed and rejuvenated, and their physical
               appearance may appear younger.
             </li>
             <li className="answer">
-              Hypnosis is accessible to everyone. Each individual may experience
-              varying depths of hypnosis, ranging from light (hypnoidal) to
-              medium (cataleptic) and deep (somnambulistic). The depth of
-              hypnosis depends on individual characteristics and preferences,
-              whether they are more physically or emotionally oriented. People
-              experience hypnotic states naturally throughout their daily lives,
-              sometimes without even realizing it.
+              2. Hypnosis is accessible to everyone. Each individual may
+              experience varying depths of hypnosis, ranging from light
+              (hypnoidal) to medium (cataleptic) and deep (somnambulistic). The
+              depth of hypnosis depends on individual characteristics and
+              preferences, whether they are more physically or emotionally
+              oriented. People experience hypnotic states naturally throughout
+              their daily lives, sometimes without even realizing it.
             </li>
             <li className="answer">
               {" "}
-              You cannot be hypnotized against your will. Hypnosis is a
+              3. You cannot be hypnotized against your will. Hypnosis is a
               collaborative process that requires your active participation and
               consent. You remain in control throughout the session, and no one
               can make you do anything you don't want to do.
             </li>
             <li className="answer">
-              Hypnosis is not mind control. While in a hyper-suggestible state,
-              you retain your values, beliefs, and integrity. The suggestions
-              the hypnotherapist provides align with your goals and desires,
-              promoting positive change.
+              4. Hypnosis is not mind control. While in a hyper-suggestible
+              state, you retain your values, beliefs, and integrity. The
+              suggestions the hypnotherapist provides align with your goals and
+              desires, promoting positive change.
             </li>
             <li className="answer">
-              Studies suggest that higher intelligence facilitates ease of
+              5. Studies suggest that higher intelligence facilitates ease of
               hypnosis as long as one doesn't overanalyze every aspect of their
               life. Hypnosis is a tool that individuals from various
               intellectual backgrounds can effectively utilize.
