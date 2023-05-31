@@ -62,3 +62,13 @@ h3 {
   color: rgba(255, 189, 66, 1);
   font-size: 22px;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .resource-cards {
+    flex-direction: column;
+  }
+
+  .link-cards {
+    width: 100%;
+  }
+}
