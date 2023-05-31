@@ -8,6 +8,7 @@
 @import url("/src/pages/style/request.css");
 @import url("/src/pages/style/certifications.css");
 @import url("/src/pages/style/resources.css");
+@import url("/src/pages/style/faq.css");
 
 .App {
   text-align: center;

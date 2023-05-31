@@ -1,0 +1,45 @@
+.faq-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-card {
+  background-color: rgba(119, 211, 194, 0.7);
+  border-radius: 20px;
+  color: #0a2c31;
+  font-family: "Krub", sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.question {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.faq-icon {
+  height: 30px;
+}
+
+.answer {
+  text-align: left;
+}
+
+li {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+
+.faq-page {
+  margin-bottom: 100px;
+}

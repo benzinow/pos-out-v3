@@ -15,6 +15,7 @@
   font-family: "Krub", sans-serif;
   line-height: normal;
   text-align: left;
+  line-height: normal;
 }
 
 .pitch {
@@ -48,7 +49,7 @@
   color: rgba(255, 189, 66, 0.85);
   font-size: 16px;
   transition: 0.3s;
-
+  line-height: normal;
   font-weight: 400;
 }
 
