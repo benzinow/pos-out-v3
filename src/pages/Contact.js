@@ -64,7 +64,7 @@ export function Contact() {
             </div>
           </div>
           <div className="form-item">
-            <label>Im interested in:</label>
+            <label>I'm interested in:</label>
             <div>
               <input name="Hypnotherapy" type="checkbox" />
               <label>Hypnotherapy</label>
