@@ -63,7 +63,7 @@ export function Resources() {
             <p>
               For inquiries about a Kangen alkalized water machine, please share
               your information on my Contact page, and I will personally get in
-              touch you.
+              touch with you.
             </p>
           </div>
         </div>
