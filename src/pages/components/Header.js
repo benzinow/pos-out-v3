@@ -12,25 +12,50 @@ function Header() {
   const palm8Ref = useRef(null);
 
   useEffect(() => {
-    function handleScroll(e) {
-      const value = e.target.documentElement.scrollTop;
-      if (value <= 200) {
-        palm1Ref.current.style.left = value * -0.6 + "px";
-        palm2Ref.current.style.left = value * 0.6 + "px";
-        palm3Ref.current.style.left = value * -0.05 + "px";
-        palm4Ref.current.style.left = value * 0.05 + "px";
-        palm5Ref.current.style.left = value * -1 + "px";
-        palm6Ref.current.style.left = value * 1 + "px";
-        palm1Ref.current.style.top = value * 0.3 + "px";
-        palm2Ref.current.style.top = value * 0.3 + "px";
-        palm3Ref.current.style.top = value * 0.3 + "px";
-        palm4Ref.current.style.top = value * 0.3 + "px";
-        palm5Ref.current.style.top = value * 0.3 + "px";
-        palm6Ref.current.style.top = value * 0.3 + "px";
-        palm7Ref.current.style.top = value * 0.2 + "px";
-        palm8Ref.current.style.top = value * -0.5 + "px";
+    function handleScroll() {
+      const value = window.scrollY;
+      if (palm1Ref.current) {
+        palm1Ref.current.style.transform = `translate3d(${value * -0.6}px, ${
+          value * 0.1
+        }px, 0)`;
+      }
+      if (palm2Ref.current) {
+        palm2Ref.current.style.transform = `translate3d(${value * 0.6}px, ${
+          value * 0.1
+        }px, 0)`;
+      }
+      if (palm3Ref.current) {
+        palm3Ref.current.style.transform = `translate3d(${value * -0.05}px, ${
+          value * 0.09
+        }px, 0)`;
+      }
+      if (palm4Ref.current) {
+        palm4Ref.current.style.transform = `translate3d(${value * 0.05}px, ${
+          value * 0.08
+        }px, 0)`;
+      }
+      if (palm5Ref.current) {
+        palm5Ref.current.style.transform = `translate3d(${value * -1}px, ${
+          value * 0.07
+        }px, 0)`;
+      }
+      if (palm6Ref.current) {
+        palm6Ref.current.style.transform = `translate3d(${value * 1}px, ${
+          value * 0.06
+        }px, 0)`;
+      }
+      if (palm7Ref.current) {
+        palm7Ref.current.style.transform = `translate3d(0, ${
+          value * 0.05
+        }px, 0)`;
+      }
+      if (palm8Ref.current) {
+        palm8Ref.current.style.transform = `translate3d(0, ${
+          value * -0.18
+        }px, 0)`;
       }
     }
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
