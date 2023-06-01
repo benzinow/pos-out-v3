@@ -5,6 +5,12 @@
   will-change: transform;
   transform: translateZ(0);
   transition: transform 0.3s ease-out;
+
+  height: 1060px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -61,14 +67,6 @@ h2 {
   left: 0;
   width: 100%;
   filter: brightness(60%);
-}
-
-.parallax {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 .palm1 {
