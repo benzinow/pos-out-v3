@@ -318,11 +318,12 @@ export function FAQ() {
           </p>
         </div>
         <div className="faq-card">
-          <p className="question">What Does Hypnotherapy Feel Like?</p>
-          <p className="answer">
+          <p className="question">
+            {" "}
             To provide you with a well-rounded understanding, here are some
             crucial facts about Hypnotherapy.
           </p>
+
           <ol>
             <li className="answer">
               1. Hypnosis induces a calm and relaxed mind, similar to deep
