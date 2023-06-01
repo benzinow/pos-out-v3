@@ -110,7 +110,7 @@ export function Resources() {
               rel="noreferrer"
               href="https://www.amazon.com/Killing-Cancer-Not-People-4Th/dp/0578216523/ref=sr_1_1?crid=3MW5G037TKU09&amp;keywords=%25E2%2580%259CKilling+Cancer+not+People%25E2%2580%259D+by+Bob+Wright&amp;qid=1685500123&amp;sprefix=killing+cancer+not+people+by+bob+wright%252Caps%252C288&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=790e372ea4f3bceb292df93c71d10a0c&camp=1789&creative=9325"
             >
-              “Killing Cancer not People” <br />
+              “Killing Cancer Not People” <br />
               by Bob Wright
             </a>
             <a
