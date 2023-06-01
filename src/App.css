@@ -10,7 +10,6 @@
 @import url("/src/pages/style/resources.css");
 @import url("/src/pages/style/faq.css");
 @import url("/src/pages/style/contactform.css");
-@import url("/src/pages/style/popup.css");
 
 .App {
   text-align: center;
