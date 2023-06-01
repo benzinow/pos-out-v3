@@ -20,9 +20,6 @@ function Footer() {
         <Link className="nav-list-item" to="/contact">
           Contact
         </Link>
-        <Link className="nav-list-item" to="/contact">
-          Book Consultation
-        </Link>
       </div>
       <div className="icon"></div>
       <div className="credit">
