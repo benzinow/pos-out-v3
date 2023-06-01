@@ -53,7 +53,7 @@ export function Contact() {
             </div>
           </div>
           <div className="form-item">
-            <label>I prefer to be contacted</label>
+            <label>I prefer to be contacted:</label>
             <div>
               <input name="byEmail" type="checkbox" />
               <label>by Email</label>
@@ -64,7 +64,7 @@ export function Contact() {
             </div>
           </div>
           <div className="form-item">
-            <label>Im interest in</label>
+            <label>Im interested in:</label>
             <div>
               <input name="Hypnotherapy" type="checkbox" />
               <label>Hypnotherapy</label>
