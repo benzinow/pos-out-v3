@@ -1,3 +1,5 @@
+import React from "react";
+
 export function Resources() {
   return (
     <div className="resources">
@@ -59,16 +61,8 @@ export function Resources() {
           <div className="discount-card">
             <p>
               For inquiries about a Kangen alkalized water machine, please share
-              your contact information, and I will personally contact you.
-            </p>
-            <form>
-              <input type="name" placeholder="name"></input>
-              <input type="email" placeholder="email"></input>
-              <button type="submit">Submit</button>
-            </form>
-            <p>
-              I will never share your contact information with third parties
-              without your permission.
+              your information on my Contact page, and I will personally get in
+              touch you.
             </p>
           </div>
         </div>

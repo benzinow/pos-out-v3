@@ -1,0 +1,94 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: left;
+  font-family: "Krub", sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  color: rgba(255, 189, 66, 1);
+}
+
+.form-item {
+  display: flex;
+}
+.form-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.long-response {
+  width: 80%;
+  height: 100px;
+}
+
+.long-label {
+  width: 60%;
+}
+
+.submit-box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.submit-design-line {
+  background-color: rgba(255, 189, 66, 1);
+  width: 300px;
+  height: 1px;
+}
+
+.submit-button {
+  background-color: rgba(255, 189, 66, 0.85);
+  font-size: 30px;
+  font-family: "Krub", sans-serif;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  background-color: rgba(255, 189, 66, 1);
+  font-size: 32px;
+  transition: 0.3s;
+}
+
+.see-form {
+}
+
+.thank-you {
+  color: rgba(255, 189, 66, 1);
+  font-size: 40px;
+  font-family: "Krub", sans-serif;
+  padding: 20px;
+  line-height: normal;
+}
+
+.form-body {
+  width: 80%;
+  margin: 0 auto 100px auto;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .form-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .form-item {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

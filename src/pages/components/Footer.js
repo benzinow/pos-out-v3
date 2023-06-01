@@ -15,7 +15,7 @@ function Footer() {
           Life Changing Resources
         </Link>
         <Link className="nav-list-item" to="/faq">
-          FAQ
+          Frequently Asked Questions
         </Link>
         <Link className="nav-list-item" to="/contact">
           Contact
