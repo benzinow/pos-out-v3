@@ -1,4 +1,5 @@
 import React from "react";
+import Request from "./components/Request";
 import cert1 from "./images/cert01.png";
 import cert2 from "./images/cert02.png";
 import cert3 from "./images/cert03.png";
@@ -23,7 +24,8 @@ export function Certifications() {
         <img className="frame" src={cert7} alt="Topic Icon" />
         <img className="frame" src={cert8} alt="Topic Icon" />
         <img className="frame" src={cert9} alt="Topic Icon" />
-      </div>{" "}
+      </div>
+      <Request />
     </div>
   );
 }

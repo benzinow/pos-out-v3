@@ -27,18 +27,22 @@ h2 {
 }
 
 .header-button {
-  color: #fff;
   background-color: rgba(255, 189, 6, 0.85);
   border-radius: 20px;
   max-width: 466px;
   padding: 15px;
-  margin: 50px auto;
+  margin: 60px auto;
+
   font-size: 30px;
   font-family: "Krub", sans-serif;
 }
 
 .header-button:hover {
   background-color: rgba(255, 189, 6, 1);
+}
+
+.header-button-text {
+  color: #fff;
 }
 
 .animation-layer {

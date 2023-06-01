@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   const palm1Ref = useRef(null);
@@ -52,7 +53,11 @@ function Header() {
         <div className="first">
           <div className="tagline">Let me show you how.</div>
           <h1>Positive Outlooks</h1>
-          <div className="header-button">Request Your Free Consultation</div>
+          <div className="header-button">
+            <Link to="/contact" className="header-button-text">
+              Request Your Free Consultation
+            </Link>
+          </div>
         </div>
       </div>
     </div>

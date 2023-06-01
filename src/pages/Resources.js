@@ -1,4 +1,5 @@
 import React from "react";
+import Request from "./components/Request";
 
 export function Resources() {
   return (
@@ -214,6 +215,7 @@ export function Resources() {
           </div>
         </div>
       </div>
+      <Request />
     </div>
   );
 }
