@@ -34,16 +34,18 @@ function Bio() {
           Apart from my work as a hypnotherapist, I have also been involved in
           various community initiatives, serving as a city commissioner for over
           20 years and helping start a 501C3 non-profit that focuses on keeping
-          inner-city kids out of gangs and drugs through martial arts. I have
-          also been a therapist on staff at a world-famous detox spa, providing
-          meditation and health classes for over a decade.
+          inner-city kids out of gangs and drugs through martial arts, and I'm
+          on the board of another nonprofit. I have also been a therapist on
+          staff at a world-famous detox spa, providing meditation and health
+          classes for over a decade.
         </p>
         <p className="what">
           My passion for helping people is rooted in my belief that everyone has
           the ability to transform their lives. I have been recognized for my
-          contributions to the community by Senators, the Sheriff of Los
-          Angeles, Police Departments, Fire Departments, Mayors, and city
-          commissions.
+          contributions to the community by senators, the sheriff of Los
+          Angeles, police departments, fire departments, mayors, and city
+          commissions, and the ex-police chief of Los angeles, whom I brought in
+          to be the chair of my nonprofit organization.
         </p>
         <p className="bio-tagline">
           Let's work together to unlock your full potential and create a life
