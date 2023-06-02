@@ -15,10 +15,10 @@ function Bio() {
             successful cases, I have dedicated my life to helping people achieve
             goals and overcome challenges. With years of experience and training
             from the most accredited school for hypnotherapy, The Hypnosis
-            Motivation Institute, I have honed my skills to help clients break
-            free from limiting beliefs, overcome fears, and reach their full
-            potential. I am a Master Hypnotist and Certified Hypnotherapist in
-            the AHA, and have also studied NLP, Circle Therapy, Systematic
+            Motivation Institute (HMI), I have honed my skills to help clients
+            break free from limiting beliefs, overcome fears, and reach their
+            full potential. I am a Master Hypnotist and Certified Hypnotherapist
+            in the AHA, and have also studied NLP, Circle Therapy, Systematic
             Desensitization and Reiki to provide my clients with a holistic
             approach to healing.
           </p>
@@ -35,8 +35,8 @@ function Bio() {
           various community initiatives, serving as a city commissioner for over
           20 years and helping start a 501C3 non-profit that focuses on keeping
           inner-city kids out of gangs and drugs through martial arts. I have
-          also been a therapist on staff at the world-famous We Care Detox Spa,
-          providing meditation and health classes for over a decade.
+          also been a therapist on staff at a world-famous detox spa, providing
+          meditation and health classes for over a decade.
         </p>
         <p className="what">
           My passion for helping people is rooted in my belief that everyone has

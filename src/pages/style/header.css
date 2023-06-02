@@ -110,6 +110,9 @@ h2 {
   .mind {
     margin-top: 200px;
   }
+
+  .parallax {
+  }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {

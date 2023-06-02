@@ -109,12 +109,12 @@ function Fixables() {
               Quitting smoking is a life-changing decision that can greatly
               improve your health and well-being. Through hypnotherapy, you can
               tap into the power of your subconscious mind to break free from
-              the smoking habit. Our sessions will focus on reprogramming
-              deep-seated beliefs and associations related to smoking,
-              strengthening your willpower, and developing healthier coping
-              strategies. Together, we will work towards your goal of becoming a
-              non-smoker, empowering you to live a smoke-free and healthier
-              life.
+              the smoking habit and other addictons. Our sessions will focus on
+              reprogramming deep-seated beliefs and associations related to
+              smoking, strengthening your willpower, and developing healthier
+              coping strategies. Together, we will work towards your goal of
+              becoming a non-smoker, empowering you to live a smoke-free and
+              healthier life.
             </p>
           )}
           {selectedTopic === "Manage Pain" && (
@@ -137,11 +137,11 @@ function Fixables() {
               can help you overcome these fears by reprogramming your
               subconscious mind and replacing negative associations with
               positive ones. Together, we will explore the root causes of your
-              fears and work towards releasing them. Through relaxation and
-              guided imagery, you will learn to respond differently to triggers,
-              gaining confidence and freedom. Let's take the courageous step
-              forward and conquer your fears, opening doors to new possibilities
-              and personal growth.
+              fears and work towards releasing them. Through meditative
+              relaxation and guided imagery, you will learn to respond
+              differently to triggers, gaining confidence and freedom. Let's
+              take the courageous step forward and conquer your fears, opening
+              doors to new possibilities and personal growth.
             </p>
           )}
         </div>

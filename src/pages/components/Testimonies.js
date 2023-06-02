@@ -116,9 +116,9 @@ function Testimonies() {
             <p className="testimony">
               Chris has completely turned me into a believer! He helped me
               overcome binge eating compulsions, texture sensitivities, severe
-              PMS symptoms, and cognitive dysfunction. My body and mind are
-              improved drastically from his guidance. The life long value I’ve
-              received is absolutely priceless.
+              PMS symptoms, and cognitive dysfunction. I have lost 75lbs. My
+              body and mind are improved drastically from his guidance. The life
+              long value I’ve received is absolutely priceless.
             </p>
             <p className="testifier">
               -Benzi Holler-Programmer and Community Organizer
