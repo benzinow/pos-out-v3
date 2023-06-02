@@ -79,7 +79,7 @@ function Testimonies() {
               integrity, kindness and generosity in all matters.
             </p>
             <p className="testifier">
-              -Shirley Braha-MTV Producer-Author-Marnie the Dog
+              -Shirley Braha-MTV Producer-Author: Marnie the Dog
             </p>
           </div>
           <div className="testimony-card">
