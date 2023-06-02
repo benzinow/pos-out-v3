@@ -35,9 +35,9 @@ export function FAQ() {
       <h1 className="page-title">FAQ</h1>
       <p className="tagline">
         I'm excited to provide you with information about my approach to
-        Hypnotherapy, its uses, benefits, and what you can expect during a
-        session. If you have any further questions or concerns, please don't
-        hesitate to reach out to me directly.
+        Hypnotherapy, its benefits, and what you can expect during a session. If
+        you have any further questions or concerns, please don't hesitate to
+        reach out to me directly.
       </p>
       <div className="faq-cards">
         <div className="faq-card">
@@ -123,7 +123,7 @@ export function FAQ() {
             <li>
               <img className="faq-icon" src={moreImage} alt="Topic Icon" />
               <p className="answer">
-                And more: Hypnotherapy can be applied to various other areas for
+                More: Hypnotherapy can be applied to various other areas for
                 personal growth and improvement.
               </p>
             </li>
@@ -132,11 +132,12 @@ export function FAQ() {
         <div className="faq-card">
           <p className="question">How Does Hypnotherapy Work?</p>
           <p className="answer">
-            During our sessions together, I create a safe and supportive
-            environment where we can explore the power of your subconscious
-            mind. Through visualization, deep-level breathing, and relaxation
-            techniques, I help you release the negatives of your past and move
-            forward without the baggage that may have been holding you back.
+            During our sessions together, conducted over Zoom in the comfort of
+            your own home, I create a safe and supportive environment where we
+            can explore the power of your subconscious mind. Through
+            visualization, deep-level breathing, and relaxation techniques, I
+            help you release the negatives of your past and move forward without
+            the baggage that may have been holding you back.
           </p>
           <p className="answer">
             Open and honest communication is essential in our journey together.
