@@ -289,7 +289,7 @@ export function FAQ() {
             <li>
               <img className="faq-icon" src={anyoneImage} alt="Topic Icon" />
               <p className="answer">
-                And anyone seeking personal growth and positive change!
+                Anyone seeking personal growth and positive change!
               </p>
             </li>
           </ul>
@@ -339,11 +339,10 @@ export function FAQ() {
               (hypnoidal) to medium (cataleptic) and deep (somnambulistic). The
               depth of hypnosis depends on individual characteristics and
               preferences, whether they are more physically or emotionally
-              oriented. People experience hypnotic states naturally throughout
-              their daily lives, sometimes without even realizing it.
+              oriented. People experience light hypnotic states naturally
+              throughout their daily lives, sometimes without even realizing it.
             </li>
             <li className="answer">
-              {" "}
               3. You cannot be hypnotized against your will. Hypnosis is a
               collaborative process that requires your active participation and
               consent. You remain in control throughout the session, and no one
