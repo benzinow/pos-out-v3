@@ -44,7 +44,7 @@ function Bio() {
           the ability to transform their lives. I have been recognized for my
           contributions to the community by senators, the sheriff of Los
           Angeles, police departments, fire departments, mayors, and city
-          commissions, and the ex-police chief of Los angeles, whom I brought in
+          commissions, and the ex-police chief of Los Angeles, whom I brought in
           to be the chair of my nonprofit organization.
         </p>
         <p className="bio-tagline">
