@@ -138,4 +138,8 @@ h2 {
   .animation-layer {
     height: 900px;
   }
+
+  .parallax {
+    height: 900px;
+  }
 }
