@@ -16,6 +16,7 @@
   line-height: normal;
   text-align: left;
   line-height: normal;
+  transition: 0.3s;
 }
 
 .pitch {
@@ -68,6 +69,14 @@ h3 {
 .video {
   width: 373px;
   height: 210px;
+}
+
+.resources-contact-link {
+  color: #ba4926;
+}
+.resources-contact-link:hover {
+  font-size: 22px;
+  transition: 0.3s;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {

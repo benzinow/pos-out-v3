@@ -1,5 +1,6 @@
 import React from "react";
 import Request from "./components/Request";
+import { Link } from "react-router-dom";
 
 export function Resources() {
   return (
@@ -62,8 +63,11 @@ export function Resources() {
           <div className="discount-card">
             <p>
               For inquiries about a Kangen alkalized water machine, please share
-              your information on my Contact page, and I will personally get in
-              touch with you.
+              your information on my{" "}
+              <Link to="/contact" className="resources-contact-link">
+                Contact page
+              </Link>
+              , and I will personally get in touch with you.
             </p>
           </div>
         </div>

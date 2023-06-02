@@ -63,17 +63,7 @@ export function Contact() {
               <label>by Phone</label>
             </div>
           </div>
-          <div className="form-item">
-            <label>I'm interested in:</label>
-            <div>
-              <input name="Hypnotherapy" type="checkbox" />
-              <label>Hypnotherapy</label>
-            </div>
-            <div>
-              <input name="Kangen" type="checkbox" />
-              <label>Kangen Alkalized Water</label>
-            </div>
-          </div>
+
           <div className="form-item">
             <label className="long-label">
               Let me know your general availability and if you have any
