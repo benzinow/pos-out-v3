@@ -11,11 +11,13 @@ import cert8 from "./images/cert008.png";
 import cert9 from "./images/cert009.png";
 import cert10 from "./images/cert010.jpg";
 import cert11 from "./images/cert011.png";
-import cert12 from "./images/cert012.png";
+import cert12 from "./images/cert012.jpg";
 import cert13 from "./images/cert013.jpg";
 import cert14 from "./images/cert014.png";
-import cert15 from "./images/cert015.png";
+import cert15 from "./images/cert015.jpg";
 import cert16 from "./images/cert016.png";
+import cert17 from "./images/cert017.png";
+import cert18 from "./images/cert018.png";
 
 export function Certifications() {
   return (
@@ -38,6 +40,8 @@ export function Certifications() {
         <img className="frame" src={cert14} alt="Topic Icon" />
         <img className="frame" src={cert15} alt="Topic Icon" />
         <img className="frame" src={cert16} alt="Topic Icon" />
+        <img className="frame" src={cert17} alt="Topic Icon" />
+        <img className="frame" src={cert18} alt="Topic Icon" />
       </div>
       <Request />
     </div>

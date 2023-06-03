@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 2200px;
+  height: 2500px;
   align-items: center;
   gap: 15px;
 }
@@ -16,7 +16,7 @@
   }
 
   .frames {
-    height: 4100px;
+    height: 4700px;
   }
 }
 
