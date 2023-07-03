@@ -1,7 +1,6 @@
 import React from "react";
 import Request from "./components/Request";
 
-// Import the images
 import noSmokingImage from "./images/no-smoke.svg";
 import stressImage from "./images/stress.svg";
 import weightImage from "./images/weight.svg";
@@ -28,6 +27,7 @@ import artistImage from "./images/artist.svg";
 import anyoneImage from "./images/anyone.svg";
 import studentImage from "./images/student.svg";
 import proImage from "./images/professional.svg";
+import dentalImage from "./images/dental.svg";
 
 export function FAQ() {
   return (
@@ -97,6 +97,13 @@ export function FAQ() {
               <p className="answer">
                 Improving study habits: Enhancing focus, concentration, and
                 learning abilities.
+              </p>
+            </li>
+            <li>
+              <img className="faq-icon" src={dentalImage} alt="Topic Icon" />
+              <p className="answer">
+                Preparing for dental and medical procedures: Alleviating anxiety
+                and enhancing readiness for dental and medical treatments.
               </p>
             </li>
             <li>
@@ -172,6 +179,14 @@ export function FAQ() {
               <p className="answer">
                 Self-understanding: Gaining more profound insights into your
                 thoughts, emotions, and behaviors.
+              </p>
+            </li>
+            <li>
+              <img className="faq-icon" src={dentalImage} alt="Topic Icon" />
+              <p className="answer">
+                Better dental and medical experiences: Minimizing fear and
+                discomfort during dental and medical procedures, promoting a
+                positive treatment journey.
               </p>
             </li>
             <li>

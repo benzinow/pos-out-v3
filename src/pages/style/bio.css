@@ -1,4 +1,4 @@
-.bio {
+.bio-container {
   background-color: rgba(255, 189, 66, 1);
   padding: 50px 150px;
   display: flex;
@@ -6,7 +6,7 @@
   justify-content: space-around;
 }
 
-.profile-picture {
+.bio-profile-picture {
   width: 450px;
   height: 600px;
   background-image: url(../images/profile-blue.png);
@@ -15,12 +15,23 @@
   display: inline;
 }
 
-.profile-picture:hover {
+.bio-profile-picture:hover {
   background-image: url(../images/profile-color.png);
   transition: 0.5s;
 }
 
-.name {
+/* Preload the images */
+.bio-profile-picture::before {
+  content: url(../images/profile-color.png);
+  display: none;
+}
+
+.bio-profile-picture:hover::before {
+  content: url(../images/profile-blue.png);
+  display: none;
+}
+
+.bio-name {
   font-size: 60px;
   font-family: "Kaisei Decol", serif;
   font-weight: 700;
@@ -56,10 +67,9 @@
   text-align: left;
   display: inline;
   width: 900px;
-}
-
-.what {
-  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -70,26 +80,26 @@
     width: 470px;
   }
 
-  .name {
+  .bio-name {
     width: 470px;
   }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
-  .profile-picture {
+  .bio-profile-picture {
     width: 300px;
     height: 401px;
     background-size: cover;
   }
 
-  .bio {
+  .bio-container {
     padding: 50px 10px;
     display: flex;
     flex-direction: column;
     align-content: center;
   }
 
-  .name {
+  .bio-name {
     font-size: 40px;
     width: 300px;
   }

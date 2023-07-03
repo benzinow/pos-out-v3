@@ -31,28 +31,43 @@ export function Contact() {
   };
 
   return (
-    <div className="form-body">
+    <div className="contact-form-container">
       <h1 className="page-title">Get in Contact</h1>
 
       <div className={submitted ? "see-form hidden" : "see-form"}>
-        <form id="myForm" className="form">
-          <div className="form-items">
+        <form id="myForm" className="contact-form">
+          <div className="contact-form-section">
             <div>
               <label>Name</label>
-              <input name="Name" type="text" required />
+              <input
+                name="Name"
+                type="text"
+                className="contact-form-input-wide "
+                required
+              />
             </div>
 
             <div>
               <label>Email</label>
-              <input name="Email" type="email" required />
+              <input
+                name="Email"
+                className="contact-form-input-wide "
+                type="email"
+                required
+              />
             </div>
 
             <div>
               <label>Phone</label>
-              <input name="Phone" type="tel" required />
+              <input
+                name="Phone"
+                className="contact-form-input-wide "
+                type="tel"
+                required
+              />
             </div>
           </div>
-          <div className="form-item">
+          <div className="contact-form-item">
             <label>I prefer to be contacted:</label>
             <div>
               <input name="byEmail" type="checkbox" />
@@ -64,8 +79,8 @@ export function Contact() {
             </div>
           </div>
 
-          <div className="form-item">
-            <label className="long-label">
+          <div className="contact-form-item">
+            <label className="contact-form-long-label">
               Let me know your general availability and if you have any
               preferred time slots for appointments.
             </label>
@@ -77,8 +92,8 @@ export function Contact() {
             ></textarea>
           </div>
 
-          <div className="form-item">
-            <label className="long-label">
+          <div className="contact-form-item">
+            <label className="contact-form-long-label">
               Feel free to include any additional comments, questions, or
               concerns you may have.
             </label>

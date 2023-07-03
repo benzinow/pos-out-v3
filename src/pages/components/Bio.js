@@ -2,11 +2,11 @@ import React from "react";
 
 function Bio() {
   return (
-    <div className="bio">
-      <div className="profile-picture"></div>
+    <div className="bio-container">
+      <div className="bio-profile-picture"></div>
 
       <div className="bio-text-block">
-        <div className="name">
+        <div className="bio-name">
           <p>Chris Young</p>
         </div>
         <div className="bio-text">
@@ -25,12 +25,12 @@ function Bio() {
         </div>
       </div>
       <div className="bio-text-block2">
-        <p className="what">
+        <p>
           My empathic nature has been with me since childhood, and it allows me
           to connect with my clients on a deep level, understanding their needs
           and guiding them toward positive change.
         </p>
-        <p className="what">
+        <p>
           Apart from my work as a hypnotherapist, I have also been involved in
           various community initiatives, serving as a city commissioner for over
           20 years and helping start a 501C3 non-profit that focuses on keeping
@@ -39,7 +39,7 @@ function Bio() {
           staff at a world-famous detox spa, providing meditation and health
           classes for over a decade.
         </p>
-        <p className="what">
+        <p>
           My passion for helping people is rooted in my belief that everyone has
           the ability to transform their lives. I have been recognized for my
           contributions to the community by senators, the sheriff of Los

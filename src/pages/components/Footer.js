@@ -22,11 +22,13 @@ function Footer() {
         </Link>
       </div>
       <div className="icon"></div>
-      <div className="credit">
-        <p>Design, copy, and code by</p>
-        <p> Benzi Holler</p>
-        <p> 2023. &copy;</p>
-      </div>
+      <a href="https://www.benziholler.com/" target="_blank">
+        <div className="credit">
+          <p>Design, copy, and code by</p>
+          <p> Benzi Holler</p>
+          <p> 2023. &copy;</p>
+        </div>
+      </a>
     </div>
   );
 }
