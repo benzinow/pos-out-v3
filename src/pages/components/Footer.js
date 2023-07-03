@@ -22,7 +22,7 @@ function Footer() {
         </Link>
       </div>
       <div className="icon"></div>
-      <a href="https://www.benziholler.com/" target="_blank">
+      <a href="https://www.benziholler.com/" target="_blank" rel="noreferrer">
         <div className="credit">
           <p>Design, copy, and code by</p>
           <p> Benzi Holler</p>

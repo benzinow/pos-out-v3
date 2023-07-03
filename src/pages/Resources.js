@@ -110,6 +110,7 @@ export function Resources() {
             <a
               className="book"
               target="_blank"
+              rel="noreferrer"
               href="https://www.amazon.com/Killing-Cancer-Not-People-4Th/dp/0578216523/ref=sr_1_1?crid=3MW5G037TKU09&amp;keywords=%25E2%2580%259CKilling+Cancer+not+People%25E2%2580%259D+by+Bob+Wright&amp;qid=1685500123&amp;sprefix=killing+cancer+not+people+by+bob+wright%252Caps%252C288&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=790e372ea4f3bceb292df93c71d10a0c&camp=1789&creative=9325"
             >
               “Killing Cancer Not People” <br />
@@ -118,6 +119,7 @@ export function Resources() {
             <a
               className="book"
               target="_blank"
+              rel="noreferrer"
               href="https://www.amazon.com/Enzyme-Factor-Hiromi-Shinya-MD/dp/0982290039/ref=sr_1_1?crid=1MWJYCX9IHANK&amp;keywords=%25E2%2580%259CThe+Enzyme+Factor%25E2%2580%259D+by+Dr.+Hiromi+Shinya+MD&amp;qid=1685500351&amp;sprefix=the+enzyme+factor+by+dr.+hiromi+shinya+md%252Caps%252C127&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=86366f22830fbda45b7da9b895c32bf0&camp=1789&creative=9325"
             >
               “The Enzyme Factor” <br />
@@ -126,6 +128,7 @@ export function Resources() {
             <a
               className="book"
               target="_blank"
+              rel="noreferrer"
               href="https://www.amazon.com/Microbe-Factor-Innate-Immunity-Revolution/dp/0982290047/ref=sr_1_1?crid=2ZMB7YS6W5P46&amp;keywords=%25E2%2580%259CThe+Microbe+Factor%25E2%2580%259D+by+Dr.+Hiromi+Shinya+MD&amp;qid=1685500391&amp;sprefix=the+enzyme+factor+by+dr.+hiromi+shinya+md%252Caps%252C123&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=b0e8977904682ece9be6d5f443553308&camp=1789&creative=9325"
             >
               “The Microbe Factor” <br />
@@ -134,6 +137,7 @@ export function Resources() {
             <a
               className="book"
               target="_blank"
+              rel="noreferrer"
               href="https://www.amazon.com/Rejuvenation-Enzyme-Reverse-Revitalize-Restore/dp/0982290071/ref=sr_1_1?crid=38QO41X85JPAP&amp;keywords=%25E2%2580%259CThe+Rejuvenation+Enzyme%25E2%2580%259D+by+Dr.+Hiromi+Shinya+MD&amp;qid=1685500434&amp;sprefix=the+rejuvenation+enzyme+by+dr.+hiromi+shinya+md%252Caps%252C127&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=3f876df4a149df7e5c6f38a85c036c08&camp=1789&creative=9325"
             >
               “The Rejuvenation Enzyme” <br />
@@ -141,6 +145,7 @@ export function Resources() {
             </a>
             <a
               className="book"
+              rel="noreferrer"
               target="_blank"
               href="https://www.amazon.com/Miracle-Water-Masaru-Emoto/dp/1582701628/ref=tmm_hrd_swatch_0?_encoding=UTF8&amp;qid=1685500469&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=9fca1fc5e4baeedbc300eae7ec8030d9&camp=1789&creative=9325"
             >
@@ -149,6 +154,7 @@ export function Resources() {
             </a>
             <a
               className="book"
+              rel="noreferrer"
               target="_blank"
               href="https://www.amazon.com/Water-Puzzle-Hexagonal-Key-Scientific/dp/0975272608/ref=sr_1_1?crid=3HLWQXFO7O3YZ&amp;keywords=%25E2%2580%259CThe+Water+Puzzle+and+the+Hexagonal+Key%25E2%2580%259D+by+Dr.+Mu+Shik+Jhon&amp;qid=1685500524&amp;sprefix=the+water+puzzle+and+the+hexagonal+key+by+dr.+mu+shik+jhon%252Caps%252C118&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=bffa80537168dec09dc75321457dcca2&camp=1789&creative=9325"
             >
@@ -158,6 +164,7 @@ export function Resources() {
             <a
               className="book"
               target="_blank"
+              rel="noreferrer"
               href="https://www.amazon.com/Water-Health-Healing-Youre-Thirsty/dp/0446690740/ref=sr_1_1?crid=1FHOWAA462SJP&amp;keywords=%25E2%2580%259CYou%25E2%2580%2599re+not+Sick+your+Thirsty%25E2%2580%259D+by+Dr.+F.Batmanghelidj+MD&amp;qid=1685500567&amp;sprefix=you+re+not+sick+your+thirsty+by+dr.+f.batmanghelidj+md%252Caps%252C116&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=aaf412391784158caf6a7d8c1234258c&camp=1789&creative=9325"
             >
               “You’re not Sick your Thirsty” <br />
@@ -166,6 +173,7 @@ export function Resources() {
             <a
               className="book"
               target="_blank"
+              rel="noreferrer"
               href="https://www.amazon.com/Your-Bodys-Many-Cries-Water/dp/0970245882/ref=sr_1_2?crid=2QHWXIF4FYF5Z&amp;keywords=%25E2%2580%259CYour+Bodies+Many+Cries+for+Water%25E2%2580%259D+by+Dr.+F.Batmanghelidj+MD&amp;qid=1685500624&amp;sprefix=your+bodies+many+cries+for+water+by+dr.+f.batmanghelidj+md%252Caps%252C126&amp;sr=8-2&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=593c71560c85a0d534fe4518c977476d&camp=1789&creative=9325"
             >
               “Your Bodies Many Cries for Water” <br />
@@ -174,6 +182,7 @@ export function Resources() {
             <a
               className="book"
               target="_blank"
+              rel="noreferrer"
               href="https://www.amazon.com/Alkalize-Die-Superior-Through-Alkaline-Acid/dp/0961959533/ref=sr_1_1?crid=37IUTEOR4YYXH&amp;keywords=%25E2%2580%259CAlkalize+or+Die%25E2%2580%259D+by+Dr.+Theodore+A.+Baroody&amp;qid=1685500676&amp;sprefix=alkalize+or+die+by+dr.+theodore+a.+baroody%252Caps%252C113&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=bec5d53795b977d510fe1b2ed2724815&camp=1789&creative=9325"
             >
               “Alkalize or Die” <br />
@@ -182,6 +191,7 @@ export function Resources() {
             <a
               className="book"
               target="_blank"
+              rel="noreferrer"
               href="https://www.amazon.com/Reverse-Aging-Sang-Y-Whang/dp/0966236319/ref=sr_1_1?crid=2CV8D2P87ELSC&amp;keywords=%25E2%2580%259CReverse+Aging%25E2%2580%259D+by+Sang+Whang&amp;qid=1685500722&amp;sprefix=reverse+aging+by+sang+whang%252Caps%252C122&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=a56304c4bbc3d2d95acb7ddd532f31cc&camp=1789&creative=9325"
             >
               “Reverse Aging” <br />
@@ -190,6 +200,7 @@ export function Resources() {
             <a
               className="book"
               target="_blank"
+              rel="noreferrer"
               href="https://www.amazon.com/pH-Miracle-Balance-Reclaim-Health/dp/0446556181/ref=sr_1_1?crid=1988R1VHL4D8B&amp;keywords=%25E2%2580%259CThe+PH+Miracle%25E2%2580%259D+by+Dr.+Robert+Young&amp;qid=1685500897&amp;sprefix=the+ph+miracle+by+dr.+robert+young%252Caps%252C141&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=8ba85fa6b1b51b8f51081c7dc7e0acb4&camp=1789&creative=9325"
             >
               “The PH Miracle” <br />
@@ -198,6 +209,7 @@ export function Resources() {
             <a
               className="book"
               target="_blank"
+              rel="noreferrer"
               href="https://www.amazon.com/Return-Love-Reflections-Principles-Miracles/dp/0060927488/ref=sr_1_1?crid=1ZKN4HHOVG5IM&amp;keywords=return+to+love&amp;qid=1685500933&amp;sprefix=return+to+lov%252Caps%252C140&amp;sr=8-1&_encoding=UTF8&tag=lizardbrainsl-20&linkCode=ur2&linkId=e4dd8d2a77c5d0623a4dca376aa2af90&camp=1789&creative=9325"
             >
               "A Return to Love" <br />
