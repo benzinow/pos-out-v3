@@ -87,6 +87,7 @@ export function Resources() {
               className="book"
               href="https://relaxsaunas.com/?tap_a=34655-122a43&tap_s=662312-424527"
               target="_blank"
+              rel="noreferrer"
             >
               Use code "POSITIVE" at checkout
               <br />
