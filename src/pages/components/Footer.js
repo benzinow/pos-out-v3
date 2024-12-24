@@ -26,7 +26,7 @@ function Footer() {
         <div className="credit">
           <p>Design, copy, and code by</p>
           <p> Benzi Holler</p>
-          <p> 2023. &copy;</p>
+          <p> 2024 &copy;</p>
         </div>
       </a>
     </div>
