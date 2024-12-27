@@ -1,6 +1,8 @@
 import React from "react";
 import Request from "./components/Request";
 import { Link } from "react-router-dom";
+import bookCover from "./images/book-cover.jpg";
+import { Img } from "react-image";
 
 export function Resources() {
   return (
@@ -215,6 +217,66 @@ export function Resources() {
             >
               "A Return to Love" <br />
               by Marianne Williamson
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="book-block discount-card book-list">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.amazon.com/Prince-Bad-Boy-Chris-Young/dp/B0DHZZCT1C/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr="
+        >
+          <h3>Check out my new book:</h3>
+        </a>
+        <div className="book-container">
+          <Img
+            className="book-cover"
+            src={bookCover}
+            loader={<div className="placeholder" />}
+          />
+          <div>
+            <p className="book-pitch">
+              <a
+                className="book-pitch"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.amazon.com/Prince-Bad-Boy-Chris-Young/dp/B0DHZZCT1C/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr="
+              >
+                The Prince & The Bad Boy” explores the complexities of sexual
+                relationships and the dynamics between men and women. The author
+                draws on his past experiences as a “Bad Boy Biker” starting with
+                an abusive childhood, growing up in the “Disneyland” that is LA,
+                and running doors (bouncing) at top Hollywood nightclubs full of
+                A-list models and actresses. He taught kickboxing at the Playboy
+                Mansion in its heyday and even briefly worked at Chippendales
+                when it was a top destination in LA.
+              </a>
+            </p>
+            <p className="book-pitch">
+              <a
+                className="book-pitch"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.amazon.com/Prince-Bad-Boy-Chris-Young/dp/B0DHZZCT1C/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr="
+              >
+                Chris uses lots of humor, personal anecdotes, and direct
+                language to make his points, often highlighting how societal
+                norms and personal histories shape behavior and expectations in
+                romantic relationships. He emphasizes the need for balance
+                between excitement and stability and encourages both sexes to
+                better understand and respect each other’s desires. This book
+                serves as both a guide and a reflective piece on the often
+                contradictory nature of love, power, and attraction.
+              </a>
+            </p>
+            <a
+              className="book-pitch"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.amazon.com/Prince-Bad-Boy-Chris-Young/dp/B0DHZZCT1C/ref=tmm_hrd_swatch_0?_encoding=UTF8&sr="
+            >
+              <button className="book-button">Buy on Amazon</button>
             </a>
           </div>
         </div>

@@ -65,7 +65,7 @@ textarea {
   font-size: 30px;
   font-family: "Krub", sans-serif;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 8px;
   border: none;
   transition: 0.3s;
 }
